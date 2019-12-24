@@ -1,0 +1,11 @@
+Write a shell script to accept a directory path and a string 
+
+Check whether a given path exists or not
+If path exists
+Check whether a given path is git repo or not
+
+If its a git repo check if a branch exists with the name of a string passed as second parameter. 
+
+If its present provide a meaningful message to the user and exit 
+
+If not, create a branch of tat name, commit a file with content "MY GIT COMMIT FROM SCRIPT" into this branch and push changes to remote.
